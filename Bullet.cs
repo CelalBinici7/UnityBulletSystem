@@ -67,4 +67,22 @@ public class EnemyScript : MonoBehaviour
                 break;
         }
     }
+     public void reloadgun()
+    {
+        if (RemainingBullets < MagazineCapacity && TotalBullets != 0)
+        {
+            if (RemainingBullets != 0)
+            {
+                bulletstate("bullets");
+
+            }
+            else
+            {
+                bulletstate("nobullets");
+
+            }
+
+        }
+
+    }
 }
