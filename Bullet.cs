@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class EnemyScript : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     public int TotalBullets;
     public int MagazineCapacity;
